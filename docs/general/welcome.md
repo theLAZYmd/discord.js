@@ -18,8 +18,8 @@
 </div>
 
 # Welcome!
-Welcome to the discord.js v11.4 documentation.
-The v11.4 release contains bugfixes from v11.3 and backports features such as Rich Presence.
+Welcome to the discord.js v11.5 documentation.
+The v11.5 release contains bugfixes from v11.4 and backports features from the in-development v12.
 
 v12 is still very much a work-in-progress, as we're aiming to make it the best it can possibly be before releasing.
 If you are fond of living life on the bleeding-edge, check out the master branch.
@@ -52,7 +52,7 @@ For production bots, using node-opus should be considered a necessity, especiall
 - One of the following packages can be installed for faster voice packet encryption and decryption:
     - [sodium](https://www.npmjs.com/package/sodium) (`npm install sodium`)
     - [libsodium.js](https://www.npmjs.com/package/libsodium-wrappers) (`npm install libsodium-wrappers`)
-- [uws](https://www.npmjs.com/package/uws) for a much faster WebSocket connection (`npm install uws`)
+- [uws](https://www.npmjs.com/package/@discordjs/uws) for a much faster WebSocket connection (`npm install @discordjs/uws`)
 
 ## Example usage
 ```js
