@@ -308,6 +308,7 @@ class ClientDataResolver {
    * [
    *   'DEFAULT',
    *   'WHITE',
+   *   'BLACK',
    *   'AQUA',
    *   'GREEN',
    *   'BLUE',

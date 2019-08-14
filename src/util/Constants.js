@@ -708,6 +708,7 @@ exports.UserChannelOverrideMap = {
 exports.Colors = {
   DEFAULT: 0x000000,
   WHITE: 0xFFFFFF,
+  BLACK: 0X000001,
   AQUA: 0x1ABC9C,
   GREEN: 0x2ECC71,
   BLUE: 0x3498DB,
